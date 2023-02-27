@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  db:
+    image:
+    container_name:
+
+  app:
+    build:
+      context: .
+    container_name:
+
+
+networks:
+  web_network:
+    name: web_network
